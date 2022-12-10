@@ -3,7 +3,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a[n],i,s=0;
+    int a[n],i;
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -14,18 +14,16 @@ int main()
     {
         if(a[i]==z)
         {
-            c++;
-            break;
-        }
+        c++;
+        break;
+    }
     }
     if(c!=0)
     {
-    printf("True");
+        printf("True");
     }
     else
     {
-    printf("False");
+        printf("False");
     }
 }
-    
-    
