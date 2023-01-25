@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
     int n,r,s=0,sq;
@@ -8,7 +8,7 @@ int main()
     {
         r=sq%10;
         sq=sq/10;
-        s+=r;
+        s=s+r;
     }
     if(s==n)
     {
