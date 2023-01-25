@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,q,c=0;
+    int n,rev=0,rem;
     scanf("%d",&n);
-    q=n;
-    while(n!=0)
+    while(n)
     {
-        r=n%10;
-        c=c*10+r;
-        n=n/10;
+        rem=n%10;
+        rev=rev*10+rem;
+        n/=10;
     }
-    printf("%d",c);
+    printf("%d",rev);
+    return 0;
 }
