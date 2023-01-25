@@ -19,12 +19,6 @@ int main()
         rs=rs*10+rem;
         sr=sr/10;
     }
-    if(sa==rs)
-    {
-        printf("True");
-    }
-    else
-    {
-        printf("False");
-    }
+    if(sa==rs)printf("True");
+    else printf("False");
 }
